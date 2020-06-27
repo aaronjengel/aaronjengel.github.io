@@ -192,14 +192,14 @@ $(document).ready(function () {
             title: "Ram and Antara's Wedding",
 
             // Event start date
-            start: new Date('Nov 27, 2017 10:00'),
+            start: new Date('May 29, 2021 17:00'),
 
             // Event duration (IN MINUTES)
             // duration: 120,
 
             // You can also choose to set an end time
             // If an end time is set, this will take precedence over duration
-            end: new Date('Nov 29, 2017 00:00'),
+            end: new Date('May 29, 2021 00:00'),
 
             // Event Address
             address: 'ITC Fortune Park Hotel, Kolkata',
@@ -219,8 +219,8 @@ $(document).ready(function () {
 
         $('#alert-wrapper').html(alert_markup('info', '<strong>Just a sec!</strong> We are saving your details.'));
 
-        if (MD5($('#invite_code').val()) !== '7c5aa4915d69027058564b142fb4ee04'
-            && MD5($('#invite_code').val()) !== '40748d6759ca7204c371ab9f8b171af1') {
+        if (MD5($('#invite_code').val()) !== '8664fd7955084f3752ad6c64398ba30e'
+            && MD5($('#invite_code').val()) !== '087c6bf7a45314a337e9aec9b0151479') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
             $.post('https://script.google.com/macros/s/AKfycby6rSssEHpkSiMwBGg2IXDsz55i0Z23riADcqdX/exec', data)
