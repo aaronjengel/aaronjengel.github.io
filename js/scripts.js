@@ -189,7 +189,7 @@ $(document).ready(function () {
         },
         data: {
             // Event title
-            title: "Ram and Antara's Wedding",
+            title: "Aaron and Freshta's Wedding",
 
             // Event start date
             start: new Date('May 29, 2021 17:00'),
@@ -223,7 +223,7 @@ $(document).ready(function () {
             && MD5($('#invite_code').val()) !== '087c6bf7a45314a337e9aec9b0151479') {
             $('#alert-wrapper').html(alert_markup('danger', '<strong>Sorry!</strong> Your invite code is incorrect.'));
         } else {
-            $.post('https://script.google.com/macros/s/AKfycby6rSssEHpkSiMwBGg2IXDsz55i0Z23riADcqdX/exec', data)
+            $.post('https://script.google.com/macros/s/AKfycbyDXe5AwRXLoX7FG79FXUR_4KwdwDJ6_r_NsH94LFOiv_aQiZw/exec', data)
                 .done(function (data) {
                     console.log(data);
                     $('#alert-wrapper').html('');
