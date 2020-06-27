@@ -239,6 +239,10 @@
         padding: 35px;
     }
 
+    #registry .img-wrap {
+        border-radius: 0;
+    }
+
     .rsvp {
         padding-top: 40px;
     }
