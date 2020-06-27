@@ -202,7 +202,7 @@ $(document).ready(function () {
             end: new Date('May 29, 2021 00:00'),
 
             // Event Address
-            address: 'ITC Fortune Park Hotel, Kolkata',
+            address: '222 North 10th Street Omaha, Nebraska 68102',
 
             // Event Description
             description: "We can't wait to see you on our big day. For any queries or issues contact Mr. Amit Roy at +91 9435021804 or +91 7086018971."
